@@ -290,6 +290,8 @@ footer p{
     footer{
         margin: 7rem 0rem;
         width: 100vw;
+         flex-direction: column;
+    gap: 3rem;
     }
     footer p{
         text-align:center;
