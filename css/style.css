@@ -238,7 +238,46 @@ nav ul li button{
 footer{
     margin: 15rem 0 3rem 0;
     width: 100vw;
+     display: flex;
+  justify-content:center;
+  gap:2rem;
+  align-items: center;
+  padding: 0 4rem;
 }
+footer figure img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 15px 40px black;
+}
+footer .insta {
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border-radius: .6rem;
+    background: rgb(223, 46, 134);
+    box-shadow: 0 15px 25px black;
+}
+footer .insta .main_icon{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+}
+footer .insta .main_icon::after{
+    content: '';
+    position: absolute;
+    width: .3rem;
+    top: -.5rem;
+    right: -.5rem;
+    height: .3rem;
+    border-radius: 50%;
+    border:1px solid #fff;
+}
+
 footer p{
     text-align:center;
     font-size: 1.6rem;
